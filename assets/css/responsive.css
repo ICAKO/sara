@@ -1,0 +1,192 @@
+@media screen and (max-width: 1366px) {
+	.partners article {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	
+	.col_12,.col_11,.col_10,.col_9,.col_8,.col_7,.col_6,.col_5,.col_4,.col_3,.col_2,.col_1 {
+		width: 100%;
+	}
+	
+	.min_container {
+		width: 100%;
+	}
+	
+	/* ========> Nav */
+
+	.nav nav {
+		display: none;
+	}
+
+	.nav nav.mobile {
+		display: block;
+	    position: absolute;
+	    top: 81px;
+	    background: #151515;
+	    border-bottom: 2px solid #000;
+	    left: 0px;
+	    width: 100%;
+	    z-index: 10;
+	}
+	
+	.nav nav ul {
+		padding: 2% 0;
+	}
+	.nav nav li {
+	    display: block;
+	    width: 100%;
+	    text-align: center;
+	    margin: 0;
+	    line-height: 24px;
+	}
+
+	.button_mobile_menu {
+		display: block;
+		cursor: pointer;
+	}
+
+	.button_mobile_menu:before {
+		content: ' ';
+		display: block;
+		width: 40px;
+		height: 40px;
+		background: transparent url('../img/selectmenu.png') no-repeat 0 0;
+	}
+
+	/* ========> AboutUs */
+	.aboutus {
+		padding: 170px 10%;
+	}
+
+	/* ========> Partners */
+	.partners article {
+		width: 50%;
+	}
+	
+	/* ========> Audience */
+	.countries .countries_wrapper,
+	.worldwide .article-group,
+	.audience .article-group {
+		flex-direction: column;
+	}
+	
+	.countries_wrapper .list,
+	.worldwide .article-group article,
+	.audience .article-group article {
+		width: 50%;
+		margin: 0 auto 40px;
+		padding-bottom: 40px;
+		border-bottom: 1px solid #EFEFEF;
+	}
+	
+	/* ============> Countires */
+	
+	.countries {
+		padding: 25px 0 0;
+		margin: 40px 0 0;
+		border: none;
+	}
+	
+	.countries_wrapper .list {
+		border-right: none;
+		text-align: left;
+	}
+	
+	.countries_wrapper .lang_col_2 ul {
+		columns: 1;
+	  -webkit-columns: 1;
+	  -moz-columns: 1;
+	}
+	
+	/* =============> Press */
+	.press .press-quote {
+		padding: 0 10%;
+	}
+	
+	.leadership article,
+	.leadership .content {
+		padding: 0 5%;
+	}
+	
+	.btn-group,
+	.benefits .list_columns,
+	.testimonial-slider article > .featured {
+		flex-direction: column;
+	}
+	
+	.testimonial-slider article > .featured img {
+		margin: 0 auto;
+	}
+	
+	.testimonial-slider article > .featured p {
+		padding-top: 30px;	
+	}
+	
+	.button.big_button {
+		width: 95%;
+		margin-bottom: 20px;
+		padding: 10px 3%;
+	}
+	
+	.contact .contact_list article {
+	    width: 27.333%;
+	    margin-bottom: 30px;
+	    padding: 0 3%;
+	}
+
+	/* =============> Footer */
+	footer .terms {
+		flex-direction: column;
+		width: 50%;
+		margin: 0 auto;
+	}
+	
+	footer .terms .banner {
+		margin-top: 25px;
+	}
+	
+}
+
+
+@media screen and (max-width: 640px) {
+	
+	.leadership article,	
+	.press-list {
+		flex-direction: column;
+	}
+	
+	.contact .contact_list article {
+	    width: 40%;
+	    margin-bottom: 30px;
+	    padding: 0 3%;
+	}
+	
+	.press-list article {
+		width: 75%;
+		margin: 0 auto 30px;
+	}
+	
+	.press-list article img {
+		width: 100%;
+	}
+	
+	.leadership article .about {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 35px;
+	}
+	
+	.leadership .content {
+		width: 90%;
+	}
+	
+	.careers-quotes blockquote h3 {
+		font-size: 8vw;
+	}
+	
+	.benefits h1 {
+		font-size: 10vw;
+	}
+}
